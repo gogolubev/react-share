@@ -3,6 +3,7 @@ import jsonp from 'jsonp';
 import objectToGetParams from './utils/objectToGetParams';
 import createShareCount from './hocs/createShareCount';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 declare global {
   interface Window {
     OK: {
